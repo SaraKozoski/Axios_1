@@ -10,23 +10,34 @@
 <main>
   <div class="main_info">
     <img src="../img/feito2.png" alt="">
-
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel esse voluptatum distinctio officiis aperiam voluptatem dolorum et. Corporis laborum maxime perspiciatis repellendus, natus cupiditate sit aperiam id. Reiciendis, placeat!
     </p>
   </div>
-  <div>
+
+  <div class="button">
     <a href="assitir previa"></a>
     <button>comecar</button>
   </div>
 <div>
-  <img src="../img/ilustracao.png" alt="">
 
 </div>
 </main>
+
+<div class="opacidade"></div>
 </template>
 
 <style>
+
+.opacidade {
+  position: fixed;
+  top: 8vh;
+  left: 0;
+  width: 100vw;
+  height: calc(80vw);
+  z-index: 10;
+  background-color: #00000055;
+}
 body{
   background-color:rgb(173, 173, 173);
   margin: 0; 
@@ -61,11 +72,28 @@ main{
   max-width: 1440px;
 }
 .main_info{
-  width: 100%;
-  max-width: 570px;
+  height: 100%;
+  margin: 0;
+ display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.main_info  {
-  margin: 100px ;
+
+.main_info p {
+  margin-left: 20%;
+  font-size: 1.5rem;  
+  height: 100%;
+
+ display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60%;
+}
+
 </style>
 
