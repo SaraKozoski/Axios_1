@@ -35,14 +35,14 @@ nav {
   column-gap: 2rem;
   margin-bottom: 0;
   display: flex;
-  align-items: center;
 }
 
 nav a {
   text-decoration: none;
-  color: #ff0000;
+  color: #ffffff;
   border: #ff0000;
   padding: 1.4rem;
+ 
 }
 
 .sobre{
