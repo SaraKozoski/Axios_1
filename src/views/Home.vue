@@ -9,22 +9,30 @@
 
 <main>
   <div class="main_info">
-    <img src="../img/feito2.png" alt="">
-    <p>
+   
+  </div>
+
+
+    <div class="form-container">
+    <h2>CRIME NEWS</h2>
+    <form action="/submit" method="POST">
+      <img src="../img/feito2.png" alt="">
+
+
+      <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel esse voluptatum distinctio officiis aperiam voluptatem dolorum et. Corporis laborum maxime perspiciatis repellendus, natus cupiditate sit aperiam id. Reiciendis, placeat!
     </p>
-  </div>
-
-  <div class="button">
-    <a href="assitir previa"></a>
     <button>comecar</button>
-  </div>
-<div>
 
-</div>
+      
+
+    </form>
+
+  </div>
 </main>
 
 <div class="opacidade"></div>
+
 </template>
 
 <style>
@@ -71,23 +79,9 @@ main{
   width: 100%;
   max-width: 1440px;
 }
-.main_info{
-  height: 100%;
-  margin: 0;
- display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.main_info p {
-  margin-left: 20%;
-  font-size: 1.5rem;  
-  height: 100%;
 
- display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .logo {
   display: flex;
   align-items: center;
@@ -95,5 +89,26 @@ main{
   margin-left: 60%;
 }
 
+    .form-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-container input, .form-container textarea, .form-container button{
+      width: 100%;
+      padding: 20px;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
 </style>
 

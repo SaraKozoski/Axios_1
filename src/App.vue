@@ -19,6 +19,7 @@
     <router-view />
 
 <div class="sobre"></div>
+
   </main>
 
 </template>
