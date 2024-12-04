@@ -8,35 +8,22 @@
 </div>
 
 <main>
-  <div class="main_info">
-   
-  </div>
-
 
     <div class="form-container">
-    <h2>CRIME NEWS</h2>
+    <h1>CRIME NEWS</h1>
     <form action="/submit" method="POST">
       <img src="../img/feito2.png" alt="">
-
-
       <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel esse voluptatum distinctio officiis aperiam voluptatem dolorum et. Corporis laborum maxime perspiciatis repellendus, natus cupiditate sit aperiam id. Reiciendis, placeat!
     </p>
-    <button>comecar</button>
-
-      
-
+    <button>começar</button>
     </form>
-
   </div>
 </main>
-
 <div class="opacidade"></div>
-
 </template>
 
 <style>
-
 .opacidade {
   position: fixed;
   top: 8vh;
@@ -51,7 +38,6 @@ body{
   margin: 0; 
   padding: 0; 
 }
-
 #background {
   position: fixed;
   inset: 0;
@@ -79,9 +65,6 @@ main{
   width: 100%;
   max-width: 1440px;
 }
-
-
-
 .logo {
   display: flex;
   align-items: center;
@@ -90,23 +73,26 @@ main{
 }
 
     .form-container {
-      background-color: #fff;
+      margin-top: 5%;     
+      margin-left: 130vh;
+      background-color: #ffffff73;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       max-width: 400px;
     }
 
-    .form-container h2 {
+    .form-container h1 {
+      color: red;
       text-align: center;
       margin-bottom: 20px;
     }
-
+  
     .form-container input, .form-container textarea, .form-container button{
       width: 100%;
       padding: 20px;
       margin: 20px 0;
-      border: 1px solid #ccc;
+      border: 1px  #61090965;
       border-radius: 5px;
       box-sizing: border-box;
     }
