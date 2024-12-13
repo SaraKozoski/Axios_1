@@ -1,42 +1,35 @@
 <script setup></script>
 
 <template>
-    
   <header>
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/filmes">Filmes</router-link>
       <router-link to="/tv">Programas de TV</router-link>
     </nav>
-    <div class="logo">
-    <img  src="../src/img/logo.png" width=40%>
-  </div>
-    <button>iniciar sessão</button>
+ 
+    <button class="login-button">Entrar</button>
   </header>
 
 
   <main>
     <router-view />
 
-<div class="sobre"></div>
 
   </main>
 
 </template>
 
 <style scoped>
+
 header {
   font-family: sans-serif;
-  height: 5rem;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.432);
-  box-shadow: 5px -1px 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: black;
   color: #fff;
   font-size: 1.3rem;
-  align-items: center;
-  justify-content: center;
-  position: relative;
   padding: 0 2rem;
+  height: 10vh;
 }
 
 nav {
@@ -44,7 +37,8 @@ nav {
   margin-bottom: 0;
   display: flex;
   position: absolute;
-  left: 2rem; }
+  left: 2rem; 
+}
 
 nav a {
   text-decoration: none;
@@ -53,32 +47,44 @@ nav a {
   padding: 1.4rem;
 }
 
-.logo {
-  right: 40%;
-  position: absolute;
-  transform: translateX(-50%); 
-  width: 15%;
-  max-width: 200px;  
-}
+
 
 button {
   position: absolute;
   right: 2rem;  
-  background-color: #5a0c0c;
-  color: rgb(255, 255, 255);
   border: none;
   padding: 0.8rem 1.5rem;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.1rem;  background-color: rgba(0, 0, 0, 0.432);
 border-radius: 2rem;
 }
 
-button:hover {
-  background-color: #ad1212;
-}
 
-.sobre {
-  z-index: black;
-}
 
+.login-button {
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      border: 2px solid white;
+      border-radius: 4px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      transition: background-color 0.3s, color 0.3s;
+  margin: 10px;
+    }
+
+    .login-button:hover {
+      border: 2px solid #ffe817;
+
+      background-color: #ffe817;
+      color: black;
+    }
+    body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  background: gray;
+}
 </style>
