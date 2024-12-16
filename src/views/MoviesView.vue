@@ -61,6 +61,7 @@ function openMovie(movieId) {
 
         </p>
       </div>
+      
     </div>
   </div>
 
@@ -76,22 +77,28 @@ function openMovie(movieId) {
 }
 
 .genre-item {
-  background-color: #387250;
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
-  color: #fff;
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 20px; 
+  padding: 10px 20px; 
+  font-size: 14px;
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #4e9e5f;
-  box-shadow: 0 0 0.5rem #387250;
+  background-color: yellow;
+  color: black;
 }
 
 .movie-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .movie-card {
@@ -99,7 +106,7 @@ function openMovie(movieId) {
   height: 30rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 0 0.5rem #000;
+  background-color: #6b6b6b;
 }
 
 .movie-card img {
@@ -130,7 +137,7 @@ function openMovie(movieId) {
 }
 
 .movie-genres span {
-  background-color: #748708;
+  background-color: #000000;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -140,18 +147,28 @@ function openMovie(movieId) {
 
 .movie-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color: #fbff00;
+  box-shadow: 0 0 0.5rem #ffffff;
+  color: black;
 }
 
 .active {
-  background-color: #67b086;
+  background-color: yellow;
   font-weight: bolder;
+  color: black;
 }
 
 .movie-genres span.active {
-  background-color: #abc322;
+  background-color: yellow;
   color: #000;
   font-weight: bolder;
 }
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+}
+
 </style>

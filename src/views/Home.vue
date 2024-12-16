@@ -5,7 +5,7 @@
 
   <main>
     <div class="content">
-      <h1>Filmes, séries e muito mais. Sem limites.</h1>
+      <h1>"Prepare a pipoca e venha viver a magia do cinema! 🎬✨"</h1>
       <p>Assista onde quiser. Cancele quando quiser.</p>
       <button class="start-button">Cadastre-se agora</button>
     </div>

@@ -16,4 +16,8 @@ body {
     Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
+  background-color: rgb(97, 97, 97);
+  margin: 0;
+  padding: 0;
+  height: 100%; 
 }
