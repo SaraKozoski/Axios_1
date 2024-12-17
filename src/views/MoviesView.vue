@@ -79,7 +79,7 @@ function openMovie(movieId) {
 .genre-item {
   background-color: black; 
   color: white; 
-  border: none; 
+  border: white 1px solid; 
   border-radius: 20px; 
   padding: 10px 20px; 
   font-size: 14px;
@@ -106,13 +106,15 @@ function openMovie(movieId) {
   height: 30rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  background-color: #6b6b6b;
+  background-color: #000000;
+  border: rgb(51, 50, 50) 1px solid;
+  box-shadow: 0 0 0.5rem #2e2e2e;
+
 }
 
 .movie-card img {
   width: 100%;
   height: 20rem;
-  border-radius: 0.5rem;
   box-shadow: 0 0 0.5rem #000;
 }
 
